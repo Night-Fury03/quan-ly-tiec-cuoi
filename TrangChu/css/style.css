@@ -1,0 +1,112 @@
+.container{
+    padding-block: 40px;
+}
+
+
+.distant{
+    padding-block: 200px;
+}
+.image-wrap1{
+    display: flex;
+    align-items: start;
+    gap: 50px;
+  }
+
+  .image-wrap2{
+    display: flex;
+    align-items: end;
+    margin-right: 40px;
+    gap: 50px;
+  }
+
+  .corner-image{
+    width: 80px; 
+    height: 70px;
+
+  }
+
+  .wrapper-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1%;
+  }
+
+
+.header{
+    height: 105px;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav_list{
+    display: flex;
+    align-items: center;
+    gap: 61px;
+}
+
+.header-nav_link{
+  font-family: "Ingrid Darling", cursive;
+  text-decoration: none;
+  font-weight: 10;
+  font-style: normal;
+  font-size: 50px;
+  color: #FFE4BB;
+  position: relative;
+  display: block;
+  padding: 1px 0px;
+
+}
+
+.header-nav_link::after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  transform: scaleX(0);
+  background-color: #ffffffe0;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-nav_link:hover{
+  color: #ffffffe0;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-nav_link:hover::after{
+  transform: scaleX(1);
+}
+
+
+html, body{
+    font-family: "Ingrid Darling", cursive;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 35px;
+    color: #FFE4BB;
+}
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-top: 2%;
+
+}
+
+
+  p{
+    font-family: "Niconne", cursive;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 55px;
+    color: #FFE4BB;
+  }
+
+  
+

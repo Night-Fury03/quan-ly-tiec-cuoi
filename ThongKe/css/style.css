@@ -1,0 +1,36 @@
+.header{
+    height: 112px;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav_list{
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.head{
+    font-family: "Newsreader", serif ;
+    font-size: 43px;
+    font-weight: 500;
+    color: #426B1F;
+}
+
+p{
+    font-family: "Niconne", cursive;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 32px;
+    color: #000;
+}
+
+.divider{
+    height: 5px;
+    width: 100%;
+    background-color: #D9D9D9;
+
+}
