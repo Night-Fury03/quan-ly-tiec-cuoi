@@ -138,6 +138,7 @@ header .shopping span{
   background-color: #ffffee;
   height: 100vh;
   transition: 0.5s;
+  border-left: 1px solid #baa4a483;
 }
 .active .card{
   left: calc(100% - 500px);
