@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Ca Sĩ",
+        "price": 1200,
+        "image": "/Images/1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bánh Kem",
+        "price": 100,
+        "image": "/Images/2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Váy Cưới",
+        "price": 2700,
+        "image": "/Images/3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Tuxedo",
+        "price": 2500,
+        "image": "/Images/4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Chụp Hình",
+        "price": 80,
+        "image": "/Images/5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Trang Điểm",
+        "price": 100,
+        "image": "/Images/6.jpg"
+    }
+
+]
