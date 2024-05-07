@@ -1,14 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/DichVu/css/base.css">
+    <link rel="stylesheet" href="/DichVu/css/reset.css">
+    <link rel="stylesheet" href="/DichVu/css/style.css">
 </head>
 <body>
+
     <header class="header">
         <div class="wrapper header-wrapper">
             <p class="head">Wedding Restaurent</p>
@@ -30,38 +32,70 @@
                         <a href="http://127.0.0.1:5500/TaiKhoan/index.html" tittle="Tài Khoản" class="header-nav_link button btn--border"><b>Tài Khoản</b></a>
                     </li>
                     <li class="header-nav_item">
-                        <a href="http://127.0.0.1:5500/signIn_signUp/signIn.html" tittle="Tài Khoản" class="header-nav_link button btn--border"><b>Đăng nhập</b></a>
+                        <a href="http://127.0.0.1:5500/signIn_signUp/registration.html" tittle="Tài Khoản" class="header-nav_link button btn--border"><b>Đăng nhập</b></a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <div class="wrapper">
+    <div class="container">
         <header>
             <h1>Danh sách dịch vụ</h1>
-            <div class="shopping">
-                <img src="./assets/img/shopping.svg">
-                <span class="quantity">0</span>
+            <div class="iconCart">
+                <img src="/Images/shopping.svg">
+                <div class="totalQuantity">0</div>
             </div>
         </header>
 
         <div class="divider"></div>
 
-        <div class="list">
-          
-        </div>
-    </div>
-    <div class="card">
-        <h1>Đơn hàng</h1>
-        <ul class="listCard">
-        </ul>
-        <div class="checkOut">
-            <div class="total">0</div>
-            <div class="closeShopping">Close</div>
+
+        <div class="listProduct">
+
+            <div class="item">
+                <img src="" alt="">
+                <h2></h2>
+                <div class="price"></div>
+                <button></button>
+            </div>
+
         </div>
     </div>
 
+    <div class="cart">
+        <h2>
+            CART
+        </h2>
+
+        <div class="listCart">
+
+
+            <div class="item">
+                <img src="">
+                <div class="content">
+                    <div class="name"></div>
+                    <div class="price"></div>
+                </div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span class="value">3</span>
+                    <button>+</button>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="buttons">
+            <div class="close">
+                Đóng
+            </div>
+            <div class="checkout">
+                <a href="/DichVu/checkout.html">Thanh Toán</a>
+            </div>
+        </div>
+    </div>
 
     <div class="wrapper distant"></div>
 
@@ -72,7 +106,7 @@
                 <div class="ig-button">
                     <a href="#" class="social-link" title="Instagram">
                       <div class="icon">
-                        <img src="./assets/img/ig.png" class="corner-image">
+                        <img src="/Images/ig.png" class="corner-image">
                       </div>
                       <span class="text">Instagram</span>
                     </a>
@@ -80,7 +114,7 @@
                 <div class="fb-button">
                     <a href="#" class="social-link" title="Facebook">
                     <div class="icon">
-                        <img src="./assets/img//fb.png" class="corner-image">
+                        <img src="/Images//fb.png" class="corner-image">
                     </div>
                       <span class="text">Facebook</span>
                     </a>
@@ -90,7 +124,7 @@
                 <div class="phone-button">
                     <a href="#" class="social-link" title="Phone-number">
                       <div class="icon">
-                        <img src="./assets/img/phone.png" class="corner-image">
+                        <img src="/Images/phone.png" class="corner-image">
                       </div>
                       <span class="text">0934123456</span>
                     </a>
@@ -98,7 +132,7 @@
                 <div class="mail-button">
                     <a href="#" class="social-link" title="Email">
                     <div class="icon">
-                        <img src="./assets/img//mail.png" class="corner-image">
+                        <img src="/Images//mail.png" class="corner-image">
                     </div>
                       <span class="text">admin@gmail.com</span>
                     </a>
@@ -107,6 +141,7 @@
         </div>
         
     </div>
+
 
     <script src="/DichVu/script.js"></script>
     
