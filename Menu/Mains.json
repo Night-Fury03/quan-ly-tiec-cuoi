@@ -2,200 +2,200 @@
     {
         "id": 26,
         "name": "Cơm chiên dương châu",
-        "price": 1200,
-        "image": "/Menu/assets/img/com-1.jpg"
+        "price": 12,
+        "image": "/Menu/menu-img/com-1.jpg"
     },
     {
         "id": 27,
         "name": "Cơm chiên hải sản",
-        "price": 100,
-        "image": "/Menu/assets/img/com-2.jpg"
+        "price": 10,
+        "image": "/Menu/menu-img/com-2.jpg"
     },
     {
         "id": 28,
         "name": "Cơm chiên cá mặn",
-        "price": 2700,
-        "image": "/Menu/assets/img/com-3.jpg"
+        "price": 10,
+        "image": "/Menu/menu-img/com-3.jpg"
     },
     {
         "id": 29,
         "name": "Cơm hấp lá sen",
-        "price": 2500,
-        "image": "/Menu/assets/img/com-4.jpg"
+        "price": 12,
+        "image": "/Menu/menu-img/com-4.jpg"
     },
     {
         "id": 30,
         "name": "Lẩu gà lá giang",
-        "price": 80,
-        "image": "/Menu/assets/img/lau-1.jpg"
+        "price": 15,
+        "image": "/Menu/menu-img/lau-1.jpg"
     },
     {
         "id": 31,
         "name": "Lẩu đầu cá hồi ",
-        "price": 100,
-        "image": "/Menu/assets/img/lau-2.jpg"
+        "price": 22,
+        "image": "/Menu/menu-img/lau-2.jpg"
     },
     {
         "id": 32,
         "name": "Lẩu vịt nấu chao",
-        "price": 80,
-        "image": "/Menu/assets/img/lau-3.jpg"
+        "price": 20,
+        "image": "/Menu/menu-img/lau-3.jpg"
     },
     {
         "id": 33,
         "name": "Lấu thái",
-        "price": 80,
-        "image": "/Menu/assets/img/lau-4.jpg"
+        "price": 25,
+        "image": "/Menu/menu-img/lau-4.jpg"
     },
     {
         "id": 34,
         "name": "Vịt quay Bắc Kinh",
-        "price": 80,
-        "image": "/Menu/assets/img/vit-1.jpg"
+        "price": 15,
+        "image": "/Menu/menu-img/vit-1.jpg"
     },
     {
         "id": 35,
         "name": "Vịt cháy tỏi",
-        "price": 80,
-        "image": "/Menu/assets/img/vit-2.jpg"
+        "price": 12,
+        "image": "/Menu/menu-img/vit-2.jpg"
     },
     {
         "id": 36,
         "name": "Vịt hấp gừng",
-        "price": 80,
-        "image": "/Menu/assets/img/vit-3.jpg"
+        "price": 12,
+        "image": "/Menu/menu-img/vit-3.jpg"
     },
     {
         "id": 37,
         "name": "Vịt tiềm",
-        "price": 80,
-        "image": "/Menu/assets/img/vit-4.jpg"
+        "price": 18,
+        "image": "/Menu/menu-img/vit-4.jpg"
     },
     {
         "id": 38,
         "name": "Gà hấp lá chanh",
-        "price": 80,
-        "image": "/Menu/assets/img/ga-1.jpg"
+        "price": 12,
+        "image": "/Menu/menu-img/ga-1.jpg"
     },
     {
         "id": 39,
         "name": "Gà bó xôi",
-        "price": 80,
-        "image": "/Menu/assets/img/ga-2.jpg"
+        "price": 14,
+        "image": "/Menu/menu-img/ga-2.jpg"
     },
     {
         "id": 40,
         "name": "Gà hầm bạch quả",
-        "price": 80,
-        "image": "/Menu/assets/img/ga-3.jpg"
+        "price": 15,
+        "image": "/Menu/menu-img/ga-3.jpg"
     },
     {
         "id": 41,
         "name": "Gà nướng muối ớt",
-        "price": 80,
-        "image": "/Menu/assets/img/ga-4.jpg"
+        "price": 14,
+        "image": "/Menu/menu-img/ga-4.jpg"
     },
     {
         "id": 42,
         "name": "Dê xào lăn",
-        "price": 80,
-        "image": "/Menu/assets/img/de-1.jpg"
+        "price": 15,
+        "image": "/Menu/menu-img/de-1.jpg"
     },
     {
         "id": 43,
         "name": "Vú dê nướng",
-        "price": 80,
-        "image": "/Menu/assets/img/de-2.jpg"
+        "price": 12,
+        "image": "/Menu/menu-img/de-2.jpg"
     },
     {
         "id": 44,
         "name": "Vú dê cháy tỏi",
-        "price": 80,
-        "image": "/Menu/assets/img/de-3.jpg"
+        "price": 12,
+        "image": "/Menu/menu-img/de-3.jpg"
     },
     {
         "id": 45,
         "name": "Dê xối xả",
-        "price": 80,
-        "image": "/Menu/assets/img/de-4.jpg"
+        "price": 14,
+        "image": "/Menu/menu-img/de-4.jpg"
     },
     {
         "id": 46,
         "name": "Cá chẽm sốt chua ngọt",
-        "price": 80,
-        "image": "/Menu/assets/img/ca-1.jpg"
+        "price": 15,
+        "image": "/Menu/menu-img/ca-1.jpg"
     },
     {
         "id": 47,
         "name": "Cá tai tượng chiên xù",
-        "price": 80,
-        "image": "/Menu/assets/img/ca-2.jpg"
+        "price": 18,
+        "image": "/Menu/menu-img/ca-2.jpg"
     },
     {
         "id": 48,
         "name": "Cá diêu hồng chưng tương",
-        "price": 80,
-        "image": "/Menu/assets/img/ca-3.jpg"
+        "price": 15,
+        "image": "/Menu/menu-img/ca-3.jpg"
     },
     {
         "id": 49,
         "name": "Cá chẽm sốt mắm tỏi",
-        "price": 80,
-        "image": "/Menu/assets/img/ca-4.jpg"
+        "price": 15,
+        "image": "/Menu/menu-img/ca-4.jpg"
     },
     {
         "id": 50,
         "name": "Mực chiên giòn",
-        "price": 80,
-        "image": "/Menu/assets/img/muc-1.jpg"
+        "price": 12,
+        "image": "/Menu/menu-img/muc-1.jpg"
     },
     {
         "id": 51,
         "name": "Mực xào sa tế",
-        "price": 80,
-        "image": "/Menu/assets/img/muc-2.jpg"
+        "price": 14,
+        "image": "/Menu/menu-img/muc-2.jpg"
     },
     {
         "id": 52,
         "name": "Mực hấp hành gừng",
-        "price": 80,
-        "image": "/Menu/assets/img/muc-3.jpg"
+        "price": 12,
+        "image": "/Menu/menu-img/muc-3.jpg"
     },
     {
         "id": 53,
         "name": "Mực dồn mực",
-        "price": 80,
-        "image": "/Menu/assets/img/muc-4.jpg"
+        "price": 15,
+        "image": "/Menu/menu-img/muc-4.jpg"
     },
     {
         "id": 54,
         "name": "Tôm hoàng kim",
-        "price": 80,
-        "image": "/Menu/assets/img/tom-1.jpg"
+        "price": 14,
+        "image": "/Menu/menu-img/tom-1.jpg"
     },
     {
         "id": 55,
         "name": "Tôm sú rang trứng muối",
-        "price": 80,
-        "image": "/Menu/assets/img/tom-2.jpg"
+        "price": 15,
+        "image": "/Menu/menu-img/tom-2.jpg"
     },
     {
         "id": 56,
         "name": "Cua hấp",
-        "price": 80,
-        "image": "/Menu/assets/img/cua-1.jpg"
+        "price": 25,
+        "image": "/Menu/menu-img/cua-1.jpg"
     },
     {
         "id": 57,
         "name": "Cua lột chiên xù",
-        "price": 80,
-        "image": "/Menu/assets/img/cua-2.jpg"
+        "price": 30,
+        "image": "/Menu/menu-img/cua-2.jpg"
     },
     {
         "id": 58,
         "name": "Cua rang me",
-        "price": 80,
-        "image": "/Menu/assets/img/cua-3.jpg"
+        "price": 32,
+        "image": "/Menu/menu-img/cua-3.jpg"
     }
 
 ]
