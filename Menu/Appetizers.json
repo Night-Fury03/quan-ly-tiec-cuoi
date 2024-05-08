@@ -1,0 +1,69 @@
+[
+    {
+        "id": 15,
+        "name": "Gỏi củ hủ dừa tôm thịt",
+        "price": 1200,
+        "image": "/Menu/menu-img/goi.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Gỏi ngó sen tôm thịt",
+        "price": 100,
+        "image": "/Menu/menu-img/goi-1.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Gỏi tiến vua tôm thịt",
+        "price": 2700,
+        "image": "/Menu/menu-img/goi-2.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Gỏi cà pháo trộn thịt bò",
+        "price": 2500,
+        "image": "/Menu/menu-img/goi-3.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Soup bắp cua",
+        "price": 80,
+        "image": "/Menu/menu-img/soup.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Soup hải sản",
+        "price": 100,
+        "image": "/Menu/menu-img/soup-1.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Soup bong bóng cá",
+        "price": 80,
+        "image": "/Menu/menu-img/soup-2.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Soup cua tuyết nhĩ",
+        "price": 80,
+        "image": "/Menu/menu-img/soup-3.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Nem nướng",
+        "price": 80,
+        "image": "/Menu/menu-img/nem.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Chả giò",
+        "price": 80,
+        "image": "/Menu/menu-img/cha-gio.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Chạo tôm",
+        "price": 80,
+        "image": "/Menu/menu-img/chao-tom.jpg"
+    }
+   
+]

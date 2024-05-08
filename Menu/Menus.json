@@ -1,0 +1,91 @@
+[
+    {
+        "id": 7,
+        "name": "Menu 1",
+        "price": 120,
+        "KhaiVi": "1. Soup bắp cua",
+        "Main1": "2. Cơm chiên hải sản",
+        "Main2": "3. Cá tai tượng chiên xù",
+        "Main3": "4. Cua hấp",
+        "Dessert":"5. Rau câu",
+        "image": "/Menu/menu-img/menu-1.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Menu 2",
+        "price": 105,
+        "KhaiVi": "1. Gỏi củ hủ dừa tôm thịt",
+        "Main1": "2. Dê xào lăn",
+        "Main2": "3. Tôm hoàng kim",
+        "Main3": "4. Lẩu thái",
+        "Dessert":"5. Trái cây",
+        "image": "/Menu/menu-img/menu-2.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Menu 3",
+        "price": 3000,
+        "KhaiVi": "1. Chả giò + chạo tôm",
+        "Main1": "2. Mực chiên giòn",
+        "Main2": "3. Cơm chiên kiểu thái",
+        "Main3": "4. Gà hấp lá chanh",
+        "Dessert":"5. Panna cotta",
+        "image": "/Menu/menu-img/menu-3.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Menu 4",
+        "price": 2500,
+        "KhaiVi": "1. Soup bong bóng cá",
+        "Main1": "2. Vú dê nướng",
+        "Main2": "3. Lẩu gà lá giang",
+        "Main3": "4. Mực xào sa tế",
+        "Dessert":"5. Bánh bông lan",
+        "image": "/Menu/menu-img/menu-4.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Menu 5",
+        "price": 80,
+        "KhaiVi": "1. Gỏi ngó sen tôm thịt",
+        "Main1": "2. Vịt quay Bắc Kinh",
+        "Main2": "3. Cơm chiên dương châu",
+        "Main3": "4. Mực hấp gừng",
+        "Dessert":"5. Rau câu",
+        "image": "/Menu/menu-img/menu-5.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Menu 6",
+        "price": 100,
+        "KhaiVi": "1. Nem nướng",
+        "Main1": "2. Gà bó xôi",
+        "Main2": "3. Lẩu đầu cá hồi",
+        "Main3": "4. Cua lột chiên xù",
+        "Dessert":"5. Bánh flan",
+        "image": "/Menu/menu-img/menu-6.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Menu 7",
+        "price": 100,
+        "KhaiVi": "1. Chả giò HongKong",
+        "Main1": "2. Gà hầm bạch quả",
+        "Main2": "3. Cơm hấp lá sen",
+        "Main3": "4. Cá chẽm sốt chua ngọt",
+        "Dessert":"5. Chè thái",
+        "image": "/Menu/menu-img/menu-7.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Menu 8",
+        "price": 100,
+        "KhaiVi": "1. Gỏi tiến vua tôm thịt",
+        "Main1": "2. Cá chẽm sốt chua ngọt",
+        "Main2": "3. Lẩu vịt nấu chao",
+        "Main3": "4. Tôm sú rang trứng muối",
+        "Dessert":"5. Panna Cotta",
+        "image": "/Menu/menu-img/menu-8.jpg"
+    }
+
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 59,
+        "name": "Rau câu",
+        "price": 1200,
+        "image": "/Menu/menu-img/dessert-1.jpg"
+    },
+    {
+        "id": 60,
+        "name": "Trái cây",
+        "price": 100,
+        "image": "/Menu/menu-img/dessert-2.jpg"
+    },
+    {
+        "id": 61,
+        "name": "Bánh flan",
+        "price": 2700,
+        "image": "/Menu/menu-img/dessert-3.jpg"
+    },
+    {
+        "id": 62,
+        "name": "Bánh bông lan",
+        "price": 2500,
+        "image": "/Menu/menu-img/dessert-4.jpg"
+    },
+    {
+        "id": 63,
+        "name": "Panna cotta",
+        "price": 80,
+        "image": "/Menu/menu-img/dessert-5.jpg"
+    },
+    {
+        "id": 64,
+        "name": "Kem",
+        "price": 100,
+        "image": "/Menu/menu-img/dessert-6.jpg"
+    }
+]
