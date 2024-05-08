@@ -8,7 +8,7 @@
         "Main2": "3. Cá tai tượng chiên xù",
         "Main3": "4. Cua hấp",
         "Dessert":"5. Rau câu",
-        "image": "/Menu/menu-img/menu-1.jpg"
+        "image": "/Menu/assets/img/menu-1.jpg"
     },
     {
         "id": 8,
@@ -19,7 +19,7 @@
         "Main2": "3. Tôm hoàng kim",
         "Main3": "4. Lẩu thái",
         "Dessert":"5. Trái cây",
-        "image": "/Menu/menu-img/menu-2.jpg"
+        "image": "/Menu/assets/img/menu-2.jpg"
     },
     {
         "id": 9,
@@ -30,7 +30,7 @@
         "Main2": "3. Cơm chiên kiểu thái",
         "Main3": "4. Gà hấp lá chanh",
         "Dessert":"5. Panna cotta",
-        "image": "/Menu/menu-img/menu-3.jpg"
+        "image": "/Menu/assets/img/menu-3.jpg"
     },
     {
         "id": 10,
@@ -41,7 +41,7 @@
         "Main2": "3. Lẩu gà lá giang",
         "Main3": "4. Mực xào sa tế",
         "Dessert":"5. Bánh bông lan",
-        "image": "/Menu/menu-img/menu-4.jpg"
+        "image": "/Menu/assets/img/menu-4.jpg"
     },
     {
         "id": 11,
@@ -52,7 +52,7 @@
         "Main2": "3. Cơm chiên dương châu",
         "Main3": "4. Mực hấp gừng",
         "Dessert":"5. Rau câu",
-        "image": "/Menu/menu-img/menu-5.jpg"
+        "image": "/Menu/assets/img/menu-5.jpg"
     },
     {
         "id": 12,
@@ -63,7 +63,7 @@
         "Main2": "3. Lẩu đầu cá hồi",
         "Main3": "4. Cua lột chiên xù",
         "Dessert":"5. Bánh flan",
-        "image": "/Menu/menu-img/menu-6.jpg"
+        "image": "/Menu/assets/img/menu-6.jpg"
     },
     {
         "id": 13,
@@ -74,7 +74,7 @@
         "Main2": "3. Cơm hấp lá sen",
         "Main3": "4. Cá chẽm sốt chua ngọt",
         "Dessert":"5. Chè thái",
-        "image": "/Menu/menu-img/menu-7.jpg"
+        "image": "/Menu/assets/img/menu-7.jpg"
     },
     {
         "id": 14,
@@ -85,7 +85,7 @@
         "Main2": "3. Lẩu vịt nấu chao",
         "Main3": "4. Tôm sú rang trứng muối",
         "Dessert":"5. Panna Cotta",
-        "image": "/Menu/menu-img/menu-8.jpg"
+        "image": "/Menu/assets/img/menu-8.jpg"
     }
 
 ]
