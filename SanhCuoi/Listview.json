@@ -3,7 +3,7 @@
         "id": 65,
         "name": "EmpTower Center",
         "price": 1200,
-        "image": "/Images/image 6.jpg",
+        "image": "/SanhCuoi/assets/img/image 6.jpg",
         "address":"30 Bình Dã - Quận 3 - Tp.HCM",
         "type":"Sảnh cưới"
     },
@@ -11,7 +11,7 @@
         "id": 66,
         "name": "Venues Center",
         "price": 100,
-        "image": "/Images/image 5.jpg",
+        "image": "/SanhCuoi/assets/img/image 5.jpg",
         "address":"98/2 Bình Dũ - Quận 2 - TP.HCM",
         "type":"Sảnh cưới"
 
@@ -20,7 +20,7 @@
         "id": 67,
         "name": "Hoàng Gia Center",
         "price": 2700,
-        "image": "/Images/image 4.jpg",
+        "image": "/SanhCuoi/assets/img/image 4.jpg",
         "address":"70/10 Lê Đại Hành - Quận 1 - TP.HCM",
         "type":"Sảnh cưới"
 
@@ -29,7 +29,7 @@
         "id": 68,
         "name": "White Palace",
         "price": 2500,
-        "image": "/Images/image 7.jpg",
+        "image": "/SanhCuoi/assets/img/image 7.jpg",
         "address":"194 Hoàng Văn Thụ, Q. Phú Nhuận, TP. Hồ Chí Minh",
         "type":"Sảnh cưới"
 
@@ -38,7 +38,7 @@
         "id": 69,
         "name": "Grand Palace",
         "price": 80,
-        "image": "/Images/image 8.jpg",
+        "image": "/SanhCuoi/assets/img/image 8.jpg",
         "address":"588 Phạm Văn Đồng, Thủ Đức, TP. Hồ Chí Minh",
         "type":"Sảnh cưới"
 
@@ -47,7 +47,7 @@
         "id": 70,
         "name": "Riverside Palace",
         "price": 100,
-        "image": "/Images/image 9.jpg",
+        "image": "/SanhCuoi/assets/img/image 9.jpg",
         "address":"360D Bến Vân Đồn, Quận 4, TP. HCM",
         "type":"Sảnh cưới"
     },
@@ -55,7 +55,7 @@
         "id": 71,
         "name": "Melisa Center",
         "price": 80,
-        "image": "/Images/image 10.jpg",
+        "image": "/SanhCuoi/assets/img/image 10.jpg",
         "address":"85 Thoại Ngọc Hầu, Quận Tân Phú, TP. HCM",
         "type":"Sảnh cưới"
 
@@ -64,7 +64,7 @@
         "id": 72,
         "name": "Diamond Place",
         "price": 80,
-        "image": "/Images/image 11.jpg",
+        "image": "/SanhCuoi/assets/img/image 11.jpg",
         "address":"03 Đặng Văn Sâm, Q. Phú Nhuận, TP. HCM",
         "type":"Sảnh cưới"
 
@@ -73,7 +73,7 @@
         "id": 73,
         "name": "Aqua Palace",
         "price": 80,
-        "image": "/Images/image 12.jpg",
+        "image": "/SanhCuoi/assets/img/image 12.jpg",
         "address":"90 Hai Bà Trưng, Q.1, TP. HCM",
         "type":"Sảnh cưới"
 
