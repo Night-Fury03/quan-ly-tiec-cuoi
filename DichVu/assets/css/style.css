@@ -194,6 +194,8 @@ header .totalQuantity{
   display: flex;
   justify-content: end;
   align-items: center;
+  gap: 5px;
+
 }
 .cart .listCart .item .quantity span{
   display: block;
@@ -311,6 +313,10 @@ header .totalQuantity{
   font-size: 20px;
   color: #E8BC0E;
   transition: linear 0.3s;
+}
+
+.cart .listCart .item .delete-btn{
+  padding-left: 10px;
 }
 
 .back:hover{
