@@ -19,7 +19,7 @@ close.addEventListener('click', function (){
 
 
 let products = null;
-fetch('products.json')
+fetch('/DichVu/products.json')
     .then(response => response.json())
     .then(data => {
         products = data;
@@ -97,6 +97,9 @@ function addCartToHTML(){
                         <button onclick="changeQuantity(${product.id}, '-')">-</button>
                         <span class="value">${product.quantity}</span>
                         <button onclick="changeQuantity(${product.id}, '+')">+</button>
+                        <div class="delete-btn">
+                            <button onclick="changeQuantity(${product.id}, 'Xóa')">Xóa</button>
+                        </div>
                     </div>`;
                 listCartHTML.appendChild(newCart);
                 totalQuantity = totalQuantity + product.quantity;
@@ -116,6 +119,9 @@ function changeQuantity($idProduct, $type){
             if(listCart[$idProduct].quantity <= 0){
                 delete listCart[$idProduct];
             }
+            break;
+        case 'Xóa':
+            delete listCart[$idProduct];
             break;
     
         default:
