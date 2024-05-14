@@ -62,7 +62,7 @@ function addDataToHTML(){
             newMenu.innerHTML = 
             `<img src="${Menu.image}" alt="">
             <h2>${Menu.name}</h2>
-            <div class="price">Giá: $${Menu.price}</div>
+            <div class="price">Giá: $${Menu.price}/Bàn</div>
             <div class="Menufood">
                 <div class="Menu-name">${Menu.KhaiVi}</div>
                 <div class="Menu-name">${Menu.Main1}</div>
@@ -228,7 +228,7 @@ function addCartToHTML(){
                 newCart.classList.add('item');
                 newCart.innerHTML = 
                     `<img src="${Menu.image}">
-                    <div class="content">
+                    <div class="content">                                                                                                                                                   
                         <div class="name">${Menu.name}</div>
                         <div class="price">$${Menu.price * Menu.quantity}</div>
                     </div>
@@ -237,6 +237,9 @@ function addCartToHTML(){
                         <button onclick="changeQuantity(${Menu.id}, '-')">-</button>
                         <span class="value">${Menu.quantity}</span>
                         <button onclick="changeQuantity(${Menu.id}, '+')">+</button>
+                        <div class="delete-btn">
+                            <button onclick="changeQuantity(${Menu.id}, 'Xóa')">Xóa</button>
+                        </div>
                     </div>`;
                 listCartHTML.appendChild(newCart);
                 totalQuantity = totalQuantity + Menu.quantity;
@@ -257,6 +260,9 @@ function changeQuantity($idMenu, $type){
             if(listCart[$idMenu].quantity <= 0){
                 delete listCart[$idMenu];
             }
+            break;
+        case 'Xóa':
+            delete listCart[$idMenu];
             break;
     
         default:
