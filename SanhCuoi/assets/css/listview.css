@@ -220,6 +220,7 @@ header .totalQuantity{
   display: flex;
   justify-content: end;
   align-items: center;
+  gap: 5px;
 }
 .cart .listCart .item .quantity span{
   display: block;
@@ -249,6 +250,9 @@ header .totalQuantity{
   font-weight: bold;
   cursor: pointer;
   transition: linear 0.25s;
+}
+.cart .listCart .item .delete-btn{
+  padding-left: 10px;
 }
 
 .cart .buttons div:hover{
