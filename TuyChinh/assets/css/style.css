@@ -190,6 +190,22 @@
     opacity: 0.8;
 }
 
+.prevBtn,
+.nextBtn {
+    line-height: 36px;
+    font-size: 18px;
+    padding: 0 10px;
+    margin: 0 4px;
+    
+}
+
+.prevBtn:hover,
+.nextBtn:hover {
+    border-radius: 45%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
 .card {
     --bs-card-spacer-y: 1rem;
     --bs-card-spacer-x: 1rem;
@@ -918,6 +934,10 @@
 
 .datatable-pagination li.datatable-hidden {
     visibility: visible;
+}
+
+.datatable-pagination {
+    display: flex;
 }
 
 .btn-datatable {
