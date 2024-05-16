@@ -38,11 +38,13 @@
   }
 
   .main{
-    background-color: #fcfccd;
+    background-color: #ffffee;
     border-radius: 20px;
     padding: 40px;
     color: #d5ab06;
-    width: 800px;
+    width: 700px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
     
   }
 
@@ -52,8 +54,7 @@
   }
 
   h3{
-    font-size: 30px;
-    margin-top: 50px;
+    font-size: 20px;
   }
 
   button{
@@ -76,9 +77,7 @@
 
   }
 
-  button:last-child{
-    margin-right: 0;
-  }
+
   
 
 
