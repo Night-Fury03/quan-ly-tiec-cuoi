@@ -1,5 +1,8 @@
 const datatablesSimple = '#datatablesSimple'
 const datatablesStatistical = '#datatablesStatistical'
+const datatablesLobby = '#datatablesLobby'
+const datatablesService = '#datatablesService'
+const datatablesMenu = '#datatablesMenu'
 
 function Pagination(tableNameID) {
   const table = $(`${tableNameID}`);
@@ -118,3 +121,6 @@ function Pagination(tableNameID) {
 
 Pagination(datatablesSimple)
 Pagination(datatablesStatistical)
+Pagination(datatablesLobby)
+Pagination(datatablesService)
+Pagination(datatablesMenu)
