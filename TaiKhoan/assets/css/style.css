@@ -44,10 +44,15 @@ p{
 }
 
 .info{
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+
+
+.address{
+  font-size: 14px;
 }
 
 .info-mail{
@@ -361,6 +366,12 @@ color: #000;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 
+}
+
+.client-name{
+  text-align: left;
+  font-size: 20px;
+  color: #426B1F;
 }
 
 .password-rule {
