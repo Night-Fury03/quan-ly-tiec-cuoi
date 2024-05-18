@@ -3,24 +3,26 @@
         "id": 65,
         "name": "EmpTower Center",
         "price": 1200,
-        "image": "/SanhCuoi/assets/img/image 6.jpg",
+        "image": "/Images/image 6.jpg",
         "address":"30 Bình Dã - Quận 3 - Tp.HCM",
         "type":"Sảnh cưới"
     },
     {
         "id": 66,
         "name": "Venues Center",
-        "price": 100,
-        "image": "/SanhCuoi/assets/img/image 5.jpg",
+        "price": 1500,
+        "image": "/Images/image 5.jpg",
         "address":"98/2 Bình Dũ - Quận 2 - TP.HCM",
         "type":"Sảnh cưới"
+
     },
     {
         "id": 67,
         "name": "Hoàng Gia Center",
         "price": 2700,
-        "image": "/SanhCuoi/assets/img/image 4.jpg",
+        "image": "/Images/image 4.jpg",
         "address":"70/10 Lê Đại Hành - Quận 1 - TP.HCM",
         "type":"Sảnh cưới"
+
     }
 ]
