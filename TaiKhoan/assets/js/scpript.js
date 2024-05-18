@@ -9,23 +9,39 @@ function checkCart(){
 }
 checkCart();
 
-document.getElementById("appointment-time").value = localStorage.getItem('appointmentTime');
-document.getElementById("meeting-time").value = localStorage.getItem('meetingTime');
-  document.getElementById("confirmButton").onclick = function() {
-        var appointmentTime = document.getElementById('appointment-time').value;
-        var meetingTime = document.getElementById('meeting-time').value;
-        localStorage.setItem('appointmentTime', appointmentTime);
-        localStorage.setItem('meetingTime', meetingTime);
-        window.location.reload();
-    };
-  document.getElementById("cancelButton").onclick = function() {
-      localStorage.removeItem('appointmentTime');
-      localStorage.removeItem('meetingTime');
-      document.getElementById("appointment-time").value = "";
-      document.getElementById("meeting-time").value = "";
-      window.location.reload();
+document.getElementById('saveButton').onclick = function() {
+  var nameValue = document.getElementById('name').value;
+  var emailValue = document.getElementById('email').value;
+  var phoneValue = document.getElementById('phone').value;
+  var roleValue = document.getElementById('role').value;
+  
+  localStorage.setItem('hoTen', nameValue);
+  localStorage.setItem('email', emailValue);
+  localStorage.setItem('soDienThoai', phoneValue);
+  localStorage.setItem('role', roleValue);
+  alert("Lưu thông tin thành công");
+};
 
-  };
+localStorage
+document.getElementById('name').value = localStorage.getItem('hoTen');
+document.getElementById('name2').value = localStorage.getItem('hoTen');
+document.getElementById('email').value = localStorage.getItem('email');
+document.getElementById('phone').value = localStorage.getItem('soDienThoai');
+document.getElementById('role').value = localStorage.getItem('role');
+
+
+document.getElementById("appointment-time").value = localStorage.getItem('appointmentTime');
+document.getElementById("confirmButton").onclick = function() {
+      var appointmentTime = document.getElementById('appointment-time').value;
+      localStorage.setItem('appointmentTime', appointmentTime);
+      alert("Đăng ký thành công");
+    };
+
+
+let today = new Date();
+let formattedDate = today.toISOString().substring(0, 16);
+document.getElementById('payment-time').value = formattedDate;
+
 
 
 function createCheckoutForm() {
@@ -55,10 +71,11 @@ function createCheckoutForm() {
             `<img src="${product.image}">
              <div class="info">
                 <div class="name">${product.name}</div>
-                <div class="price">$${product.price}</div>
+                ${product.type === 'Sảnh cưới' ? `<div class="quantity">SL bàn: ${product.quantity}</div>` : ''}
             </div>
-            <div class="quantity">SL: ${product.quantity}</div>
-            <div class="returnPrice">$${product.price * product.quantity}</div>`;
+            <div class="returnPrice">$${product.price * product.quantity}</div>
+            ${product.type === 'Sảnh cưới' ? `<div class="address">${product.address}</div>` : ''}`;
+
             typeTitleDiv.appendChild(productDiv);
           });
   
