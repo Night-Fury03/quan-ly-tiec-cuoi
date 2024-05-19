@@ -426,3 +426,70 @@ to {
 }
 
 
+
+.image {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+
+.name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 15px;
+
+}
+
+.tables, .price, .address, .items {
+  margin-top: 15px;
+}
+
+
+.venue{
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu{
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0 10px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.service{
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0 10px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.items li {
+  margin-bottom: 5px;
+  text-align: left;
+}
