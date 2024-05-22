@@ -1,100 +1,71 @@
 var item = document.querySelectorAll(".navbar-item")
 var heading = document.querySelector(".heading")
-var selfInfo = document.querySelector(".self-info")
-var guest = document.querySelector(".guest")
-var statistical = document.querySelector(".statistical")
-var lobby = document.querySelector(".lobby-management")
-var service = document.querySelector(".service-management")
-var menu = document.querySelector(".menu-management")
+var contentPage = Array.from(document.querySelectorAll(".content-page"))
 
 var arrayItem = Array.from(item)
 arrayItem[0].onclick = function(e) {
     heading.innerHTML = arrayItem[0].textContent
-    console.log(selfInfo)
+    var selfInfo = contentPage.find(function(Page) {return Page.classList.contains("self-info")})
     if (selfInfo.classList.contains("hidden")) {
+        contentPage.forEach(function(Page) {
+            Page.classList.add("hidden")
+        })
         selfInfo.classList.remove("hidden")
-        guest.classList.add("hidden")
-        statistical.classList.add("hidden")
-        lobby.classList.add("hidden")
-        service.classList.add("hidden")
-        menu.classList.add("hidden")
-    } else {
-        selfInfo.classList.add("hidden")
     }
 }
 
 arrayItem[1].onclick = function(e) {
     heading.innerHTML = arrayItem[1].textContent
+    var guest = contentPage.find(function(Page) {return Page.classList.contains("guest")})
     if (guest.classList.contains("hidden")) {
+        contentPage.forEach(function(Page) {
+            Page.classList.add("hidden")
+        })
         guest.classList.remove("hidden")
-        selfInfo.classList.add("hidden")
-        statistical.classList.add("hidden")
-        lobby.classList.add("hidden")
-        service.classList.add("hidden")
-        menu.classList.add("hidden")
-    } else {
-        guest.classList.add("hidden")
-        
     }
 }
 
 arrayItem[2].onclick = function(e) {
     heading.innerHTML = "Báo cáo doanh thu"
+    var statistical = contentPage.find(function(Page) {return Page.classList.contains("statistical")})
     if (statistical.classList.contains("hidden")) {
-        statistical.classList.remove("hidden")
-        selfInfo.classList.add("hidden")
-        guest.classList.add("hidden")
-        lobby.classList.add("hidden")
-        service.classList.add("hidden")
-        menu.classList.add("hidden")
-    } else {
-        statistical.classList.add("hidden")
-        
+        contentPage.forEach(function(Page) {
+            Page.classList.add("hidden")
+        })
+        statistical.classList.remove("hidden") 
     }
 }
 
 arrayItem[3].onclick = function(e) {
     heading.innerHTML = arrayItem[3].textContent
+    var lobby = contentPage.find(function(Page) {return Page.classList.contains("lobby-management")})
     if (lobby.classList.contains("hidden")) {
-        lobby.classList.remove("hidden")
-        selfInfo.classList.add("hidden")
-        guest.classList.add("hidden")
-        statistical.classList.add("hidden")
-        service.classList.add("hidden")
-        menu.classList.add("hidden")
-    } else {
-        lobby.classList.add("hidden")
-        
+        contentPage.forEach(function(Page) {
+            Page.classList.add("hidden")
+        })
+        lobby.classList.remove("hidden")  
     }
 }
 
 arrayItem[4].onclick = function(e) {
     heading.innerHTML = arrayItem[4].textContent
+    var service = contentPage.find(function(Page) {return Page.classList.contains("service-management")})
     if (service.classList.contains("hidden")) {
+        contentPage.forEach(function(Page) {
+            Page.classList.add("hidden")
+        })
         service.classList.remove("hidden")
-        selfInfo.classList.add("hidden")
-        guest.classList.add("hidden")
-        lobby.classList.add("hidden")
-        statistical.classList.add("hidden")
-        menu.classList.add("hidden")
-
-    } else {
-        service.classList.add("hidden")
-        
     }
 }
 
 arrayItem[5].onclick = function(e) {
     heading.innerHTML = arrayItem[5].textContent
+    var menu = contentPage.find(function(Page) {return Page.classList.contains("menu-management")})
     if (menu.classList.contains("hidden")) {
-        menu.classList.remove("hidden")
-        selfInfo.classList.add("hidden")
-        guest.classList.add("hidden")
-        lobby.classList.add("hidden")
-        statistical.classList.add("hidden")
-        service.classList.add("hidden")
-    } else {
-        menu.classList.add("hidden")
+        contentPage.forEach(function(Page) {
+            Page.classList.add("hidden")
+        })
+        menu.classList.remove("hidden")  
     }
 }
 
