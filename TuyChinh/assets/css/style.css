@@ -862,7 +862,13 @@
 }
 
 /* TABLE */
+.datatable-table th,
+.datatable-table td {
+    overflow:hidden;
+}
+
 .datatable-table {
+    table-layout: fixed;
     border-collapse: collapse;
 }
 

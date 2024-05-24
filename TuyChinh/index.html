@@ -36,6 +36,7 @@
                     <li class="navbar-item"><i class="navbar-icon fa-solid fa-hotel"></i></i>Quản lý sảnh</li>
                     <li class="navbar-item"><i class="navbar-icon fa-solid fa-wrench"></i></i>Quản lý dịch vụ</li>
                     <li class="navbar-item"><i class="navbar-icon fa-solid fa-utensils"></i></i>Quản lý món ăn</li>
+                    <li class="navbar-item"><i class="navbar-icon fa-solid fa-sun"></i></i>Quản lý ca</li>
                     <li class="navbar-item"><a href="http://127.0.0.1:5500/TrangChu/index.html"><i
                                 class="navbar-icon fa-solid fa-house"></i></i>Về trang chủ</a></li>
                 </ul>
@@ -154,6 +155,8 @@
                                                             {% endif %}
                                                             <i class="edit-guest-icon fa-solid fa-pen-to-square"></i>
                                                         </td>
+                                                        <td>{{post['TienPhat']}}</td>
+                                                        <td>{{post['TienPhat']}}</td>
                                                     </tr>
                                                     {% endfor %}
                                                 </tbody>
@@ -855,6 +858,53 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="content-page shift-management hidden">
+                        <div class="shift-data">
+
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <i class="fas fa-table me-1"></i>
+                                    Danh sách ca
+                                </div>
+                                <div class="card-body">
+                                    <div
+                                        class="datatable-wrapper">
+                                        <div class="datatable-container">
+                                            <table id="datatablesSimple" class="datatable-table">
+                                                <thead>
+                                                    <tr>
+                                                        <th data-sortable="true" style="width: 20%;"><a href="#"
+                                                                class="datatable-sorter">Mã ca</a></th>
+                                                        <th data-sortable="true" style="width: 20%;"><a href="#"
+                                                                class="datatable-sorter">Tên ca</a></th>
+                                                        <th data-sortable="true" style="width: 30%;"><a href="#"
+                                                                class="datatable-sorter">Thời gian</a></th>
+                                                        <th style="width: 10%;"></th>
+                                                        <th style="width: 10%;"></th>
+                                                        <th style="width: 10%;"></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    {% for post in ca %}
+                                                    <tr data-index="{{ loop.index }}">
+                                                        <td>{{post['MaCa']}}</td>
+                                                        <td>{{post['TenCa']}}</td>
+                                                        <td>{{post['ThoiGian']}}</td>
+                                                        <td><button class="add-shift-btn btn btn-primary">Thêm</button></td>
+                                                        <td><button class="delete-shift-btn btn btn-primary">Xóa</button></td>
+                                                        <td><button class="edit-shift-btn btn btn-primary">Sửa</button></td>
+                                                    </tr>
+                                                    {% endfor %}
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -953,11 +1003,68 @@
         </div>
     </div>
 
+    <!-- Modal edit shift -->
+    <div class="modal edit-shift-modal">
+        <div class="modal-container edit-shift-modal-container">
+
+            <div class="icon-close js-modal-edit-shift-close">
+                <i class="modal-icon-close fa-solid fa-xmark"></i>
+            </div>
+
+            <header class="modal-header"> Sửa thông tin </header>
+
+            <div class="modal-body">
+                <div class="model-input-item">
+                    <label for="shift-name" class="modal-label">Tên ca:</label>
+                    <input type="text" id="shift-name" class="modal-input" placeholder="{{info['shiftName']}}">
+                </div>
+                <div class="model-input-item">
+                    <label for="shift-time" class="modal-label">Thời gian:</label>
+                    <input type="text" id="shift-time" class="modal-input" placeholder="{{info['shiftTime']}}">
+                </div>
+            </div>
+
+            <footer class="modal-footer">
+                <button class="btn btn-primary cancel-edit-shift-btn">Hủy</button>
+                <button class="btn btn-primary confirm-edit-shift-btn">Xác nhận</button>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Modal add shift -->
+    <div class="modal add-shift-modal">
+        <div class="modal-container add-shift-modal-container">
+
+            <div class="icon-close js-modal-add-shift-close">
+                <i class="modal-icon-close fa-solid fa-xmark"></i>
+            </div>
+
+            <header class="modal-header"> Thêm ca </header>
+
+            <div class="modal-body">
+                <div class="model-input-item">
+                    <label for="shift-name-new" class="modal-label">Tên ca:</label>
+                    <input type="text" id="shift-name-new" class="modal-input" placeholder="{{info['shiftName']}}">
+                </div>
+                <div class="model-input-item">
+                    <label for="shift-time-new" class="modal-label">Thời gian:</label>
+                    <input type="text" id="shift-time-new" class="modal-input" placeholder="{{info['shiftTime']}}">
+                </div>
+            </div>
+
+            <footer class="modal-footer">
+                <button class="btn btn-primary cancel-add-shift-btn">Hủy</button>
+                <button class="btn btn-primary confirm-add-shift-btn">Xác nhận</button>
+            </footer>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/pagination.js"></script>
     <script src="./assets/js/modalEditGuestHandle.js"></script>
     <script src="./assets/js/modalEditMenuHandle.js"></script>
+    <script src="./assets/js/modalShiftHandle.js"></script>
 
 </body>
 

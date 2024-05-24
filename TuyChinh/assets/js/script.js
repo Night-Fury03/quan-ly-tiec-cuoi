@@ -69,6 +69,17 @@ arrayItem[5].onclick = function(e) {
     }
 }
 
+arrayItem[6].onclick = function(e) {
+    heading.innerHTML = arrayItem[6].textContent
+    var shift = contentPage.find(function(Page) {return Page.classList.contains("shift-management")})
+    if (shift.classList.contains("hidden")) {
+        contentPage.forEach(function(Page) {
+            Page.classList.add("hidden")
+        })
+        shift.classList.remove("hidden")  
+    }
+}
+
 document.getElementById('form-select-lobby').addEventListener('change', function() {
     var selectedForm = this.value;
     var forms = document.querySelectorAll('.form-row');
